@@ -1,0 +1,327 @@
+---
+title: "Genetic architecture of tropical maize for interaction with plant growth-promoting bacteria via high-throughput phenotyping"
+subtitle: " "
+author: "PhD Student: Rafael M. Yassue <br> Advisor: Roberto Fritsche Neto"
+institute: "Genetics and Plant Breeding Program"
+date: "02/11/2020"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+#Rafael Massahiro Yassue
+<br> <br> <br> <br>
+![](rafael.png) 
+
+---
+#  Summary 
+  + Introduction
+    - Maize
+    - Nitrogen 
+    - Holobiont
+    - Plant Growth-Promoting Bacteria
+    - “Breeding pillars” and Phenomics
+    - Components of electromagnetic spectrum
+    - Plant Growth-Promoting Bacteria and HTTP
+  + Goals
+  + Material and methods
+    - Pilot trial 
+  + Results 
+    - Orthomosaic
+    - Genotyping-by-sequencing
+    - Population structure
+    - Population parameters
+  + Outlook
+  
+
+
+---
+#Maize 
+![](mundo.png)
+
+---
+#Nitrogen
+- Average maize crop removes 160 kg/ha of nitrogen <br>
+
+--
+
+- BNF by PGPB has been reported to contribute up to 12–33% of total N uptake in maize (Montañez et al., 2009)<br>
+
+--
+
+- PGPR may be a good alternative to more sustainable production
+
+--
+
+- 300 maize-associated endophytes (mostly bacteria) <br>
+
+--
+
+- Based on the genomes currently in NCBI, bacteria and fungi contain an average of <b> 3,800 and 9,600 genes </b> , respectively. If we assume <b> 35 unique fungi and 175 </b>  unique bacteria per plant (see Sect. 14.2.4), it implies that the maize endosphere contains  <b> 858,000–1.14 million genes </b> , over twenty times that of the maize plant itself (Hardoim et al., 2015). <br>
+
+
+---
+#Holobiont
+![](holob.png)
+--
+![](eq.png)
+
+---
+#Plant Growth-Promoting Bacteria
+
+![](plos1png.png)
+
+---
+#Plant Growth-Promoting Bacteria
+
+![](domes.png)
+
+---
+#Plant Growth-Promoting Bacteria
+ <img src="effects.png" width="1000" height="350" /> 
+
+---
+#Plant Growth-Promoting Bacteria
+ 
+<img src="effects2.png" width="1000" height="350"  /> 
+
+---
+#Plant Growth-Promoting Bacteria
+ <img src="effects3.png" width="1000" height="350"  /> 
+
+---
+#Plant Growth-Promoting Bacteria
+
+- Type of Soil (Oliveira et al., 2006) <br>
+
+--
+
+- Genotype x PGPB  (Montañez et al., 2009) <br>
+
+--
+
+- Environment interaction (Rouphael et al., 2018) <br>
+
+--
+
+- Nitrogen disponibility (Egamberdiyeva, 2007) <br>
+
+--
+
+- Microbiome x microbiome interaction (Van Der Heijden et al., 2008)
+
+--
+
+- Heterosis (Vidotti et al. 2019, preprint Wagner et al. 2020)
+
+---
+# “Breeding pillars” and Phenomics
+![](pheno.png)
+---
+# “Breeding pillars” and Phenomics
+![](pheno2.png)
+---
+#Components of electromagnetic spectrum
+![](espec.png)
+--
+<img src="table1.png" style="width: 60%" />
+
+
+---
+#Plant Growth-Promoting Bacteria
+
+<img src="microbioma.png" style="width: 100%" />
+
+---
+#Plant Growth-Promoting Bacteria
+<img src="microb.png" style="width: 100%" />
+---
+#Plant Growth-Promoting Bacteria and HTTP
+<img src="HTTP2.png" style="width: 100%" />
+---
+#Plant Growth-Promoting Bacteria and HTTP
+<img src="HTTP.png" style="width: 100%" />
+---
+#Goal
+- Genetic and phenotypic characterization of maize inbred lines for response to plant growth-promoting bacteria
+
+--
+
+- Implementation of a High-Throughput Phenotyping platform in the greenhouse
+
+--
+
+- Prospecting new traits that may be associated with a positive response to plant x PGPB interaction
+
+---
+#Material and methods
+
+- Greenhouse condition
+
+--
+
+- 360 inbred lines, with and without PGPB
+
+--
+
+- V2, V4, and V6 
+
+| Classic phenotyping | High-throughput phenotyping  |
+| ------------- | ------------- |
+| Plant height (3x) | NDVI (3x) |
+| Stalk diameter | NDVIred (3x) |
+| Number of leaves (3x) | NDVIgreen (3x) |
+| Chlorophyll content (3x) | Chlorophyll indices (3x) |
+| Canopy mass | Canopy temperature (3x) |
+| Dry mass of canopy and root | Plant height (3x) |
+| | WinRHIZO | 
+
+
+---
+# Material and methods
+Table. Blend of Bacterias 
+
+|Bacteria	|Mechanism|
+|------|-------|
+|<i>Bacillus </i>sp. RZ2MZ9 |	P solubilization, ACC deaminase activity and ammonia and IAA production|
+|<i> Azospirillum brasilense </i> Ab-v5 	|Fixing N2 and synthesis of phytohormones|
+|<i> Pantoea agglomerans </i> 33.1	|Synthesize indoleacetic acid and solubilize phosphate|
+|<i> Delftia </i> sp. 93A. 	|High nitrogen-fixing activity and acetylene reduction|
+
+---
+# Material and methods
+
+- Augmented blocks (Federer), 6 blocks with 60 lines and 3 checks with and without PGPB (I)
+  \begin{aligned}
+y=X 1 \boldsymbol{g}+X 2 \boldsymbol{b}+X 3 \boldsymbol{c}+X 4 \boldsymbol{p}+X 5 \boldsymbol{i}+\boldsymbol{\varepsilon}
+  \end{aligned}
+  
+--
+
+
+- Sown three times (II)
+  \begin{aligned}
+y=x 1 g+X 2 e+X 3 p+X 4 i+\varepsilon
+  \end{aligned}
+
+g effects of genotype <br>
+b effects of blocks  <br>
+c effects of checks  <br>
+p effect of inoculation with PGPB  <br>
+e effect experiment effect of  <br>
+i effect of interaction genotype x inoculation with the PGPB   <br>
+𝜺 ~𝑁(0, 𝑹).
+
+---
+# Pilot trial
+
+
+- Type of soil
+
+--
+
+- Microbiome
+
+--
+
+- Fertilization – Hoagland without Nitrogen
+
+--
+
+- Data collection pipeline and image processing – Metashape and QGIS
+
+
+---
+# Pilot trial
+<br>
+.pull-left[![](thermal.gif)]
+.pull-right[![](RGB2.gif)]
+<br> <br>
+.middle[Figure. Collection of thermal (left) and multispectral (right) images]
+
+
+---
+
+# Orthomosaic 
+
+.pull-bottom[.center[![](orto.png)]]
+Figure. Orthomosaic using multispectral camera
+
+---
+# Genotyping-by-sequencing 
+
+
+
+.pull-left[ - SNP: 14639 <br>  - Two enzymes approach - Pst1-MSE1 (Poland, 2011) <br> - SNPCalling: TASSEL 5.0 <br>  - Aligner: Bowtie 2 <br> - Imputation: Beagle 5.0
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> ]
+--
+
+.pull-right[ <img src="omics.png" style="width: 250%" /> ]
+
+ 
+.bottom[ <font size="3"> Figure. Raw data coverage (A), and depth (B), Filtered data coverage (C), and depth (D) </font> ]
+
+---
+# Population structure
+
+.pull-left[![](NI.jpeg)]
+.pull-right[![](PCA.gif)]
+<br>
+.middle[Figure. Proportion of variation accumulated (A) and Cumulative proportion of variance explained by the principal components (1, 2 and 3, B)]
+
+---
+
+# Population structure
+
+<img src="STRUTpng.png" style="width: 100%" /> <br>
+Figure. Genotypes sorted by origin (A) and group (K) (B)
+
+
+---
+# Population structure
+
+![](gagd.png)
+Figure. Additive (Ga), and dominance (Gd) relationship matrix
+---
+# Population parameters 
+|Parameter	|Esalq	|Iapar	|All |
+| ------------- | ------|----- |-----|
+|Ne	|101.50	        |98.82	        |199.83|
+|Va	|4385.2	|4422.9	|4493.14|
+|Vd	|1635.88	|1635.27	|1644.02|
+|Number of fixed alleles	|30	|80	|..|
+|GD	|0.3	|0.3	|0.31|
+|PIC	|0.24	|0.25	|0.25|
+|MAF	|0.21	|0.22	|0.22|
+|Ho	|0.03	|0.03	|0.03|
+|F	|0.89	|0.91	|0.9|
+
+--
+#### F-statistics 
+|Pop	|Fis	|Fst|	Fit|
+|-----|----|------|-------|
+|Esalq x Iapar|	0.901|	0.021|	0.902|
+
+
+---
+#Outlook
+
+- Hyperspectral camera
+
+
+--
+
+
+- Random regression from high-throughput phenotyping data with Association Weight Matrix
+---
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+# .center[Thank you] 
+
+###.right[ Rafael Massahiro Yassue ]
+.right[![](qr.png)]
+
+
